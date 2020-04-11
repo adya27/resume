@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f5f7fa;
+  padding: 20px;
+  font-family: Montserrat;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.wrapper {
+  background: #ffffff;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar {
+  background: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.myphoto {
+  width: 370px;
+}
+.about-me-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.contacts-container {
+  /* Style for "Contacts" */
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #ffffff;
+}
+.contact-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.href {
+  color: #5b636e;
+}
+.contacts-link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 10px;
+}
+.tech-skills-title {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.tech-skills-container {
+  margin-top: 55px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.tech-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 20px;
+  color: #f2670b;
+}
+.tech-skills-item-text {
+  color: #9c9fa4;
+}
+
+.soft-skills-title {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.soft-skills-container {
+  margin-top: 55px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.soft-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 20px;
+  color: #f2670b;
+}
+.soft-skills-text {
+  color: #9c9fa4;
+}
+
+.profession {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 110px;
+}
+.name {
+  color: #000000;
+  margin-top: 25px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+.aftername {
+  color: #595959;
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /*width: 415px;*/
+}
+.projects-title {
+  color: #000000;
+  margin-top: 65px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.projects-ol {
+  color: #000000;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.projects-items {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.projects-items-tech1 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  /*margin-left: 30px;*/
+}
+.projects-items-tech2 {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 10px;
+}
+.projects-items-tech3 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 10px;
+}
+.projects-items-tech4 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 60px;
+}
+
+.work-experience-title {
+  margin-top: 55px;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.pro {
+  margin-top: 15px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.firm {
+  margin-top: 15px;
+  color: #ff771d;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.data-place {
+  color: #a8a8a8;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.projects-ul {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.pro2 {
+  margin-top: 30px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.firm2 {
+  margin-top: 30px;
+  color: #ff771d;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.pro3 {
+  margin-top: 15px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.firm3 {
+  margin-top: 20px;
+  color: #ff771d;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.slash {
+  color: #000000;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.dots {
+  color: #000000;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 24px;
+}
